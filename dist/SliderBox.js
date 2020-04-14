@@ -58,6 +58,10 @@ export class SliderBox extends Component {
     });
   }
 
+  snapToPrev() {
+    this._ref.snapToPrev();
+  }
+
   _renderItem({ item, index }) {
     const {
       ImageComponent,
